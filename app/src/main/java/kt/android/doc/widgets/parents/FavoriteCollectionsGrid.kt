@@ -28,14 +28,3 @@ fun FavoriteCollectionsGrid(
         }
     }
 }
-
-
-
-//
-//@Preview(showBackground = false)
-//@Composable
-//fun GreetingPreview() {
-//    DocTheme {
-//        FavoriteCollectionsGrid()
-//    }
-//}

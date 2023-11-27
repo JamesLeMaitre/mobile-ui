@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "kt.android.doc"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "kt.android.doc"
@@ -66,4 +66,8 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    // https://mvnrepository.com/artifact/androidx.compose.material3/material3-window-size-class-android
+    implementation("androidx.compose.material3:material3-window-size-class-android:1.2.0-alpha07")
+
 }
